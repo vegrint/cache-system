@@ -52,7 +52,7 @@ public:
       return head_->next == tail_;
     }
 
-    // 提那家结点管理方法
+    // 结点管理
     void addNode(NodePtr node) 
     {
         if (!node || !head_ || !tail_) 
